@@ -5,5 +5,19 @@
     <link>https://secondengineerco.com</link>
     <description>Updates to Blank Audio Sorter</description>
     <language>en</language>
+    <item>
+      <title>Version 1.2.1</title>
+      <pubDate>Mon, 26 Oct 2026 20:43:40 +0000</pubDate>
+      <description><![CDATA[Test update: checks that automatic updating works.]]></description>
+      <sparkle:installationType>package</sparkle:installationType>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://updates.secondengineerco.com/blankaudiosorter/Blank-Audio-Sorter-Installer-1.2.1.pkg"
+        sparkle:version="4"
+        sparkle:shortVersionString="1.2.1"
+        sparkle:edSignature="9RxlBW01asIWHwFpcEmW+X9mtiqdlYQCrefVJ0Ovu3DKTqgWXEecYGG0sELlCI+qbr1WAP0sDyA0xWeigWgsAQ=="
+        length="1364021"
+        type="application/octet-stream" />
+    </item>
   </channel>
 </rss>
