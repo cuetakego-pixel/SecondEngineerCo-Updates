@@ -6,6 +6,8 @@ Served by GitHub Pages at https://updates.secondengineerco.com (DNS: CNAME `upda
 One folder per app, containing `appcast.xml` and the installer files:
 
 - `blankaudiosorter/` – Blank Audio Sorter
+- `calibrationtech/` – Calibration Tech
+- `videomiddleman/` – Video Middle Man
 
 Each app's feed address is baked into the installed app, so keep these paths stable. Add a new app by adding a
 new folder. Releases are published from each app's own project (`publish_update.sh`), which signs the installer
