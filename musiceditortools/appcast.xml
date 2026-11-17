@@ -6,17 +6,17 @@
     <description>Updates to Music Editor Tools</description>
     <language>en</language>
     <item>
-      <title>Version 1.3.2</title>
-      <pubDate>Tue, 03 Nov 2026 20:31:25 +0000</pubDate>
-      <description><![CDATA[Menu bar: the View menu lists the tool tabs, and the Edit menu has a submenu for each tool with all its buttons (for Keyboard Maestro). Ref Check now reports sound in the stems that isn't in the reference. Clear button on every tool, Tempo Map runs as soon as you drop a file, Timecode always shows two-digit hours, and Video Converter explains the Accessibility permission on screen.]]></description>
+      <title>Version 1.3.23</title>
+      <pubDate>Tue, 17 Nov 2026 20:57:07 +0000</pubDate>
+      <description><![CDATA[A welcome guide opens when the app starts (tick Hide at start up to skip it; Help > Welcome Guide opens it again). Session Setup Presets are now yours: new installs start with none. Pro Tools session templates and track presets can be in any folder, and the track presets can have any names. New: Use open session works in the Pro Tools session that is already open. Auto mode stops at Track Assign until every track has a track preset, then carries on. Ref Check runs by itself in Manual mode once every track has a track preset and there is a rough mix. The tempo map is one steady tempo with a short first bar so the grid lines up with the music. The window opens wider and shorter, and the icon is easier to see.]]></description>
       <sparkle:installationType>package</sparkle:installationType>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://updates.secondengineerco.com/musiceditortools/Music-Editor-Tools-Installer-1.3.2.pkg"
-        sparkle:version="7"
-        sparkle:shortVersionString="1.3.2"
-        sparkle:edSignature="s9pxA1Zh5+6zkvOF/xOso9CFLnG6DUNX8i3hdJQSWE8vnM9xH7KqPHMgM3rJHgzK+EZytmOy+b83lgQ2aza9Cg=="
-        length="3403206"
+        url="https://updates.secondengineerco.com/musiceditortools/Music-Editor-Tools-Installer-1.3.23.pkg"
+        sparkle:version="28"
+        sparkle:shortVersionString="1.3.23"
+        sparkle:edSignature="/g0tzuCTHKhOk5vyUw3fgLRENCyDRWjhVGSYtZs1GapotvzBQ3RkPP18ebGtl13vtBGIHYWBAIB1gXXfwha7Dw=="
+        length="4461270"
         type="application/octet-stream" />
     </item>
   </channel>
