@@ -6,17 +6,17 @@
     <description>Updates to Music Editor Tools</description>
     <language>en</language>
     <item>
-      <title>Version 1.3.26</title>
-      <pubDate>Wed, 18 Nov 2026 08:02:48 +0000</pubDate>
-      <description><![CDATA[Delivery Rename tab: rename the printed mix files in an open Pro Tools session for delivery, with draggable name modules, typed-in stem names saved with the Session Setup Preset. Composer MIDI files (.mid / _MIDI) are imported as MIDI tracks at the top of the session; the tempo map comes from the composer's MIDI, then a CLICK track, then the rough mix. Pro Tools tracks are renamed to the instrument name when the track presets load. Split mono pairs (L/R) are joined into stereo files; surround parts (L R C LFE Ls Rs) are flagged, not joined. Ref Check: click the waveform to move the playhead, and difference markers. Gold scroll bar, new start screen, PAD/ARP synth rules, Name Changer in the guide.]]></description>
+      <title>Version 1.3.27</title>
+      <pubDate>Wed, 18 Nov 2026 08:28:39 +0000</pubDate>
+      <description><![CDATA[Fixes the Delivery Rename tab: it now scrolls (the stem names and the Rename button were cut off), with a visible gold scroll bar on every tab. Rename button moved to the bottom and made shorter; stem names go one per line; the Name bar fits on one line at any width with its heading above; mix version 1 becomes V1; mixer initials start blank. Everything from 1.3.26 (Delivery Rename, composer MIDI import, CLICK tempo source, stereo joins, Ref Check click-to-seek).]]></description>
       <sparkle:installationType>package</sparkle:installationType>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://updates.secondengineerco.com/musiceditortools/Music-Editor-Tools-Installer-1.3.26.pkg"
-        sparkle:version="31"
-        sparkle:shortVersionString="1.3.26"
-        sparkle:edSignature="oJgaYVmhQippN1C5PyaDzpntLPFE1NQGf1HOXahq6G2UQ5ahOhy/ElEwAu8fhQJdSHGR8Z1jJkBiLC3XJ2c9DA=="
-        length="22654510"
+        url="https://updates.secondengineerco.com/musiceditortools/Music-Editor-Tools-Installer-1.3.27.pkg"
+        sparkle:version="32"
+        sparkle:shortVersionString="1.3.27"
+        sparkle:edSignature="5kqkLw3iX2MIWVUVORKiESUuG+IbB/mtY0YpwfsCUnTnRMBslCqSbAj4XuhJWjCyy0IbySzC/MHDLVJnpU3sCw=="
+        length="22678249"
         type="application/octet-stream" />
     </item>
   </channel>
