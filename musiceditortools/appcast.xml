@@ -6,17 +6,17 @@
     <description>Updates to Music Editor Tools</description>
     <language>en</language>
     <item>
-      <title>Version 1.3.25</title>
-      <pubDate>Wed, 18 Nov 2026 04:44:02 +0000</pubDate>
-      <description><![CDATA[Session Setup now works on any Mac with Pro Tools: the setup tool, its own Python and the Pro Tools helper come inside the app, so nothing else needs installing. The first time you press Setup Pro Tools Session, macOS asks you to allow ptui in System Settings > Privacy & Security > Accessibility. (Apple silicon Macs; the other tools work on Intel too.) Also: the Getting Started window mentions this in step 7.]]></description>
+      <title>Version 1.3.26</title>
+      <pubDate>Wed, 18 Nov 2026 08:02:48 +0000</pubDate>
+      <description><![CDATA[Delivery Rename tab: rename the printed mix files in an open Pro Tools session for delivery, with draggable name modules, typed-in stem names saved with the Session Setup Preset. Composer MIDI files (.mid / _MIDI) are imported as MIDI tracks at the top of the session; the tempo map comes from the composer's MIDI, then a CLICK track, then the rough mix. Pro Tools tracks are renamed to the instrument name when the track presets load. Split mono pairs (L/R) are joined into stereo files; surround parts (L R C LFE Ls Rs) are flagged, not joined. Ref Check: click the waveform to move the playhead, and difference markers. Gold scroll bar, new start screen, PAD/ARP synth rules, Name Changer in the guide.]]></description>
       <sparkle:installationType>package</sparkle:installationType>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://updates.secondengineerco.com/musiceditortools/Music-Editor-Tools-Installer-1.3.25.pkg"
-        sparkle:version="30"
-        sparkle:shortVersionString="1.3.25"
-        sparkle:edSignature="dfMsKH3Sv/2v262b0WoI8f25dRAWP3nHL6g2J2eqYvH7J9ILteBlzjm/q3JLoOn6S1l8citeg7fvGVqF4gX8CA=="
-        length="22123505"
+        url="https://updates.secondengineerco.com/musiceditortools/Music-Editor-Tools-Installer-1.3.26.pkg"
+        sparkle:version="31"
+        sparkle:shortVersionString="1.3.26"
+        sparkle:edSignature="oJgaYVmhQippN1C5PyaDzpntLPFE1NQGf1HOXahq6G2UQ5ahOhy/ElEwAu8fhQJdSHGR8Z1jJkBiLC3XJ2c9DA=="
+        length="22654510"
         type="application/octet-stream" />
     </item>
   </channel>
