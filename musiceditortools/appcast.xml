@@ -6,17 +6,17 @@
     <description>Updates to Music Editor Tools</description>
     <language>en</language>
     <item>
-      <title>Version 1.3.24</title>
-      <pubDate>Tue, 17 Nov 2026 21:26:25 +0000</pubDate>
-      <description><![CDATA[The Getting Started window is now a floating window you can drag to the side and keep open while you set up (30% bigger, seven steps; Help > Getting Started opens it again). Track presets can have any names: the app matches the delivered instrument names to your preset names, including names written run together (TrumpetSolo) and plurals (TRUMPETS). Pro Tools templates and track presets can be in any folder, Use open session works in the session already open in Pro Tools, and new installs start with no Session Setup Presets.]]></description>
+      <title>Version 1.3.25</title>
+      <pubDate>Wed, 18 Nov 2026 04:44:02 +0000</pubDate>
+      <description><![CDATA[Session Setup now works on any Mac with Pro Tools: the setup tool, its own Python and the Pro Tools helper come inside the app, so nothing else needs installing. The first time you press Setup Pro Tools Session, macOS asks you to allow ptui in System Settings > Privacy & Security > Accessibility. (Apple silicon Macs; the other tools work on Intel too.) Also: the Getting Started window mentions this in step 7.]]></description>
       <sparkle:installationType>package</sparkle:installationType>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://updates.secondengineerco.com/musiceditortools/Music-Editor-Tools-Installer-1.3.24.pkg"
-        sparkle:version="29"
-        sparkle:shortVersionString="1.3.24"
-        sparkle:edSignature="mdOixlkd9N4ZUbU/NQLc0eVKCYFO0hTM2EAVBFO0sbbpehEhxLZvaSJdPy0g2BYCZXYDWS7obGQJKBl5oZtdDQ=="
-        length="4464874"
+        url="https://updates.secondengineerco.com/musiceditortools/Music-Editor-Tools-Installer-1.3.25.pkg"
+        sparkle:version="30"
+        sparkle:shortVersionString="1.3.25"
+        sparkle:edSignature="dfMsKH3Sv/2v262b0WoI8f25dRAWP3nHL6g2J2eqYvH7J9ILteBlzjm/q3JLoOn6S1l8citeg7fvGVqF4gX8CA=="
+        length="22123505"
         type="application/octet-stream" />
     </item>
   </channel>
