@@ -6,17 +6,17 @@
     <description>Updates to Music Editor Tools</description>
     <language>en</language>
     <item>
-      <title>Version 1.3.27</title>
-      <pubDate>Wed, 18 Nov 2026 08:28:39 +0000</pubDate>
-      <description><![CDATA[Fixes the Delivery Rename tab: it now scrolls (the stem names and the Rename button were cut off), with a visible gold scroll bar on every tab. Rename button moved to the bottom and made shorter; stem names go one per line; the Name bar fits on one line at any width with its heading above; mix version 1 becomes V1; mixer initials start blank. Everything from 1.3.26 (Delivery Rename, composer MIDI import, CLICK tempo source, stereo joins, Ref Check click-to-seek).]]></description>
+      <title>Version 1.3.28</title>
+      <pubDate>Thu, 19 Nov 2026 08:28:21 +0000</pubDate>
+      <description><![CDATA[Fixes and additions since 1.3.27: the gold scroll bar and Delivery Rename tab scroll; Session Setup now works in Manual mode (the job is built from what is on screen), with the Timecode tab and the tempo map made automatically in Manual mode and a 'Tempo map made from' choice on the Tempo Map tab; the Pro Tools Open panel step for the tempo map waits for the file instead of timers (slow external drives); New Track in Track Assign (imported with no track preset); click tracks are left out of the Ref Check stem sum; the app starts in Manual mode, a new project is Manual and an existing project remembers its mode; Auto Mode History panel (scrolls, expands, Undo next to Clear); New Project / Existing Project start screen; numbered tabs; Hide at start up and Close buttons respond to the first click; Delivery Rename tweaks; and a much more useful debug log: where the app stopped, the state of each step and every event of the run, including every update step.]]></description>
       <sparkle:installationType>package</sparkle:installationType>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://updates.secondengineerco.com/musiceditortools/Music-Editor-Tools-Installer-1.3.27.pkg"
-        sparkle:version="32"
-        sparkle:shortVersionString="1.3.27"
-        sparkle:edSignature="5kqkLw3iX2MIWVUVORKiESUuG+IbB/mtY0YpwfsCUnTnRMBslCqSbAj4XuhJWjCyy0IbySzC/MHDLVJnpU3sCw=="
-        length="22678249"
+        url="https://updates.secondengineerco.com/musiceditortools/Music-Editor-Tools-Installer-1.3.28.pkg"
+        sparkle:version="33"
+        sparkle:shortVersionString="1.3.28"
+        sparkle:edSignature="4plLoMINSJ7lQsJv0bdzYVI2oCSIvW1mCmFeBELCEXfdZ3qJuR4tUmho+zRvcg5BT3I91CDHJDIsxS8MsO0/Cg=="
+        length="22793318"
         type="application/octet-stream" />
     </item>
   </channel>
