@@ -6,17 +6,17 @@
     <description>Updates to Music Editor Tools</description>
     <language>en</language>
     <item>
-      <title>Version 1.3.28</title>
-      <pubDate>Thu, 19 Nov 2026 08:28:21 +0000</pubDate>
-      <description><![CDATA[Fixes and additions since 1.3.27: the gold scroll bar and Delivery Rename tab scroll; Session Setup now works in Manual mode (the job is built from what is on screen), with the Timecode tab and the tempo map made automatically in Manual mode and a 'Tempo map made from' choice on the Tempo Map tab; the Pro Tools Open panel step for the tempo map waits for the file instead of timers (slow external drives); New Track in Track Assign (imported with no track preset); click tracks are left out of the Ref Check stem sum; the app starts in Manual mode, a new project is Manual and an existing project remembers its mode; Auto Mode History panel (scrolls, expands, Undo next to Clear); New Project / Existing Project start screen; numbered tabs; Hide at start up and Close buttons respond to the first click; Delivery Rename tweaks; and a much more useful debug log: where the app stopped, the state of each step and every event of the run, including every update step.]]></description>
+      <title>Version 1.3.29</title>
+      <pubDate>Fri, 20 Nov 2026 17:47:56 +0000</pubDate>
+      <description><![CDATA[Fixes for Session Setup: the runner now touches only the tracks it created from the delivery (template tracks, even ones with audio or instrument names, are ignored; a stopped run is not resumed after the rename, start again from a fresh template session); the delivery's rough mix replaces whatever is on the template's ROUGH MIX track; progress lines while Pro Tools opens a new session on a slow drive; the update log no longer reports 'up to date' as an error.]]></description>
       <sparkle:installationType>package</sparkle:installationType>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://updates.secondengineerco.com/musiceditortools/Music-Editor-Tools-Installer-1.3.28.pkg"
-        sparkle:version="33"
-        sparkle:shortVersionString="1.3.28"
-        sparkle:edSignature="4plLoMINSJ7lQsJv0bdzYVI2oCSIvW1mCmFeBELCEXfdZ3qJuR4tUmho+zRvcg5BT3I91CDHJDIsxS8MsO0/Cg=="
-        length="22793318"
+        url="https://updates.secondengineerco.com/musiceditortools/Music-Editor-Tools-Installer-1.3.29.pkg"
+        sparkle:version="34"
+        sparkle:shortVersionString="1.3.29"
+        sparkle:edSignature="xWY7WSIirrllZ/PnnzhTvd1LQSoOZL1W9pqdoJE9Un43W7Gfo0RvZ2xCnU0EkiYHcYPgfmWFeeQ68Lb0CO8NDA=="
+        length="22794488"
         type="application/octet-stream" />
     </item>
   </channel>
