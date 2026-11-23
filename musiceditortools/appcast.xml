@@ -6,17 +6,17 @@
     <description>Updates to Music Editor Tools</description>
     <language>en</language>
     <item>
-      <title>Version 1.13</title>
-      <pubDate>Mon, 23 Nov 2026 19:17:15 +0000</pubDate>
-      <description><![CDATA[Delivery Rename for Zach's naming: order number, cue number and name from the Pro Tools session name, time code from the printed files, stem names from the committed tracks. Track Assign: folders from the project template, a preset menu on every track, multi-select, auto-folder by preset. Setup skips Sam-only steps for Zach's projects.]]></description>
+      <title>Version 1.14</title>
+      <pubDate>Mon, 23 Nov 2026 20:30:34 +0000</pubDate>
+      <description><![CDATA[Delivery Rename for Zach: cue number and cue name found in the Pro Tools session name (ADD CUE NAME when there is none, or type them), the example name follows the open session with its time code (type a time code to override), order number, stem names from the committed tracks, mixes without STEM. Project name is the first module.]]></description>
       <sparkle:installationType>package</sparkle:installationType>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://updates.secondengineerco.com/musiceditortools/Music-Editor-Tools-Installer-1.13.pkg"
-        sparkle:version="39"
-        sparkle:shortVersionString="1.13"
-        sparkle:edSignature="+ZYUePs0dXwoMymDFWfLLFLxXIk/0l19L+UPiDl/SKENkHxU7RmfvJH0WLf3i7sEAv2Dq2zucDwXYx3w/L81DQ=="
-        length="23063693"
+        url="https://updates.secondengineerco.com/musiceditortools/Music-Editor-Tools-Installer-1.14.pkg"
+        sparkle:version="40"
+        sparkle:shortVersionString="1.14"
+        sparkle:edSignature="I1dBhkficcU1LpFeMhYHTh2Tbk1ZeJb9vNEXtpKpNXHNKcamWZzNsJ0EpBVz2Dicap1WgqKdMTmI1TsGlk5YBw=="
+        length="23109275"
         type="application/octet-stream" />
     </item>
   </channel>
