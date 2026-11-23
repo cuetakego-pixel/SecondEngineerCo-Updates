@@ -6,17 +6,17 @@
     <description>Updates to Music Editor Tools</description>
     <language>en</language>
     <item>
-      <title>Version 1.3.29</title>
-      <pubDate>Fri, 20 Nov 2026 17:47:56 +0000</pubDate>
-      <description><![CDATA[Fixes for Session Setup: the runner now touches only the tracks it created from the delivery (template tracks, even ones with audio or instrument names, are ignored; a stopped run is not resumed after the rename, start again from a fresh template session); the delivery's rough mix replaces whatever is on the template's ROUGH MIX track; progress lines while Pro Tools opens a new session on a slow drive; the update log no longer reports 'up to date' as an error.]]></description>
+      <title>Version 1.13</title>
+      <pubDate>Mon, 23 Nov 2026 19:17:15 +0000</pubDate>
+      <description><![CDATA[Delivery Rename for Zach's naming: order number, cue number and name from the Pro Tools session name, time code from the printed files, stem names from the committed tracks. Track Assign: folders from the project template, a preset menu on every track, multi-select, auto-folder by preset. Setup skips Sam-only steps for Zach's projects.]]></description>
       <sparkle:installationType>package</sparkle:installationType>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://updates.secondengineerco.com/musiceditortools/Music-Editor-Tools-Installer-1.3.29.pkg"
-        sparkle:version="34"
-        sparkle:shortVersionString="1.3.29"
-        sparkle:edSignature="xWY7WSIirrllZ/PnnzhTvd1LQSoOZL1W9pqdoJE9Un43W7Gfo0RvZ2xCnU0EkiYHcYPgfmWFeeQ68Lb0CO8NDA=="
-        length="22794488"
+        url="https://updates.secondengineerco.com/musiceditortools/Music-Editor-Tools-Installer-1.13.pkg"
+        sparkle:version="39"
+        sparkle:shortVersionString="1.13"
+        sparkle:edSignature="+ZYUePs0dXwoMymDFWfLLFLxXIk/0l19L+UPiDl/SKENkHxU7RmfvJH0WLf3i7sEAv2Dq2zucDwXYx3w/L81DQ=="
+        length="23063693"
         type="application/octet-stream" />
     </item>
   </channel>
