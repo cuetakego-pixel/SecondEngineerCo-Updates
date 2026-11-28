@@ -6,17 +6,17 @@
     <description>Updates to Music Editor Tools</description>
     <language>en</language>
     <item>
-      <title>Version 1.18</title>
-      <pubDate>Sat, 28 Nov 2026 06:08:02 +0000</pubDate>
-      <description><![CDATA[A permissions panel: it opens the first time the app runs (and from Music Editor Tools > Permissions) and asks for files and folders, Accessibility for the Pro Tools click helper, and control of Pro Tools in one place, so setup no longer fails part way for a missing permission.]]></description>
+      <title>Version 1.19</title>
+      <pubDate>Sat, 28 Nov 2026 06:29:19 +0000</pubDate>
+      <description><![CDATA[The permissions panel no longer mentions Full Disk Access (it is never needed). It asks for Desktop, Documents, Downloads and your connected drives, and a drive you connect later is asked about the first time it is used.]]></description>
       <sparkle:installationType>package</sparkle:installationType>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://updates.secondengineerco.com/musiceditortools/Music-Editor-Tools-Installer-1.18.pkg"
-        sparkle:version="44"
-        sparkle:shortVersionString="1.18"
-        sparkle:edSignature="x5KeZo+XJN+t4fKjyYkJpKYw3Wqa+TWGa7PXOM/jQHeS9wdLLHfCxgfXVSC4XL2BgyWFZ7q0pqWxPnXSmF/6Dw=="
-        length="23204840"
+        url="https://updates.secondengineerco.com/musiceditortools/Music-Editor-Tools-Installer-1.19.pkg"
+        sparkle:version="45"
+        sparkle:shortVersionString="1.19"
+        sparkle:edSignature="cwYfreUdmiNbA5oUAePLa2AEdQ2ptaZCOtd3cTn6VoKYz0RbLJELelKiCvuRptWKMLzW2SgvCJsZ+krISU8EBg=="
+        length="23203168"
         type="application/octet-stream" />
     </item>
   </channel>
