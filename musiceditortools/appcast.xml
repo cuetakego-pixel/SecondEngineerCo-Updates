@@ -6,17 +6,17 @@
     <description>Updates to Music Editor Tools</description>
     <language>en</language>
     <item>
-      <title>Version 1.16</title>
-      <pubDate>Sat, 28 Nov 2026 05:51:55 +0000</pubDate>
-      <description><![CDATA[Zach's setup: new sessions from his template work (no placeholder track needed), files with no track preset import as New Track and are renamed like the others, longer waits for the MIDI import with a warning instead of a stop, the folder list fills the window, no blue box on the Sam button. The setup file no longer appears in the delivery folder.]]></description>
+      <title>Version 1.17</title>
+      <pubDate>Sat, 28 Nov 2026 05:59:02 +0000</pubDate>
+      <description><![CDATA[Session Setup now shows a gold progress bar and a short statement of what it is doing, with the step number and the seconds when it is waiting for Pro Tools.]]></description>
       <sparkle:installationType>package</sparkle:installationType>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://updates.secondengineerco.com/musiceditortools/Music-Editor-Tools-Installer-1.16.pkg"
-        sparkle:version="42"
-        sparkle:shortVersionString="1.16"
-        sparkle:edSignature="wgUn8XYK+frX1D0OvZ74E7gngaveh4o4ixC+d5IeNz7G2JxaAmTwdgkXrCypVWIcJghoh9sQg0Co9oxG1zROBA=="
-        length="23129972"
+        url="https://updates.secondengineerco.com/musiceditortools/Music-Editor-Tools-Installer-1.17.pkg"
+        sparkle:version="43"
+        sparkle:shortVersionString="1.17"
+        sparkle:edSignature="+Xa1Ybrq4/e/hKcUYKsvBALqKLSmEnP1KNp/+9iefe3ngVrvhgRKaAVBax+HI8ou2IouqMDwQc8Fc1qH48iLDQ=="
+        length="23151429"
         type="application/octet-stream" />
     </item>
   </channel>
